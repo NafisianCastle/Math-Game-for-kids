@@ -98,7 +98,7 @@ main()
     system("color CF");
     printf("\n\n\n                                    WELCOME TO MATH GAME FOR KIDS!\n\n");
     printf("                                           created by\n\n");
-    printf("                        RAHMAN,MD. NAFISUR\t&\tSADID,MD. FAHIMUL HAQUE\n");
+    printf("                                          RAHMAN,MD. NAFISUR\n");
     printf("\n\n\n                                      To play, press [enter]");
 
     getchar();
