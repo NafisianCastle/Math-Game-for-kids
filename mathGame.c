@@ -2,10 +2,9 @@
 #include<time.h>
 #include<math.h>
 #include<conio.h>
-startFunc(double x,double y)       //startFunc function
+void startFunc(double x,double y)       //startFunc function
 {
-    float res;                //Declaring variables
-    float ans;
+    float res,ans;                //Declaring variables
     int exp,choice;
     time_t t;
     srand((unsigned) time(&t));   //random number generator
@@ -47,7 +46,6 @@ startFunc(double x,double y)       //startFunc function
 
     default:
         printf("\n\n       wrong input...........");
-
         return ;
     }
 
